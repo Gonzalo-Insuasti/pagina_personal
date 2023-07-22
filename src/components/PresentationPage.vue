@@ -28,6 +28,9 @@
           <p>{{ datos.nombre }}</p>
           <p>{{ datos.titulo }}</p>
           <p>{{ datos.correo }}</p>
+          <a :href="doc" download="DocCV.pdf">
+          <button class="btn">Descargar CV</button>
+          </a>
         </div>
         <div class="profile-description,">
           <p>{{ presentacion }}</p>
@@ -43,6 +46,7 @@
       imagealt = ref('Mi imagen');
   let img2 = ref('/Personal.jpg'),
     imgalt =ref('Mod');
+  let doc = ref('/DocCV.pdf');
   const datos = ref({
     nombre: 'Gonzalo Fabian Insuasi Tabla', 
     titulo: 'Licenciado en informatica', 
@@ -60,6 +64,22 @@
   </script>
   
   <style>
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+
   .textoendiv{
   display: flex;
   flex-direction: column;
