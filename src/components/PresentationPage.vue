@@ -219,6 +219,12 @@
     font-size: 18px;
     line-height: 1.6;
   }  
+  .dropdown-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  text-align: left;
+}
   .dropdown:hover .dropdown-options {
   display: block;
 }
