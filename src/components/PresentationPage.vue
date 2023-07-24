@@ -111,6 +111,10 @@
   button:hover {
     background-color: #0056b3;
   }
+  .dropdown {
+  display: inline-block;
+  position: relative;
+}
 
 
   .textoendiv{
