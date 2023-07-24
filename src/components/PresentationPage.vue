@@ -4,13 +4,17 @@
         <ul>
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#acerca">Acerca</a></li>
-          <li @mouseenter="showContactList = true" @mouseleave="showContactList = false">
-            <a href="/contact">Contacto</a>
-          <ul v-show="showContactList" class="contact-list">
-            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-            <li><a href="https://www.linkedin.com/in/gonzalo-insuasti-7a9103252" target="_blank">LinkedIn</a></li>
-          </ul>
-        </li>
+
+          <div class="dropdown"  >
+                <button class="btnright" >
+                  <span>CONTACTO</span>
+                </button>
+                <div class="dropdown-options">
+                  <li><a href="https://www.linkedin.com/in/gonzalo-insuasti-7a9103252">Linkedin</a></li>
+                  <li><a href="#">Instagram</a></li>
+                </div>
+              </div>
+
         </ul>
       </nav>
       <section id="inicio" class="hero-section">
@@ -64,6 +68,35 @@
   </script>
   
   <style>
+    .btnright {
+    border: 0;
+    background-image: linear-gradient(
+      150deg,
+      #9500ff,
+      #09f,
+      #00DDFF
+    );
+    border-radius: 8PX;
+    color: #fff;
+    display: flex;
+    font-size: 1.3vw;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s ;
+
+  }
+  button span {
+    background-color: #333;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+  }
+  button:hover span {
+    background: none;
+  }
+  button:active{
+    transform: scale(0.9);
+  }
 
 .btn {
     background-color: #007bff;
@@ -95,6 +128,7 @@
   nav {
     background-color: #333;
     padding: 1px 0;
+    text-align: right;
   }
   .navbar {
   position: fixed;
@@ -110,6 +144,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    margin-right: 20px;
   }
   
   nav li {
@@ -124,7 +159,7 @@
     text-decoration: none;
     padding: 5px 10px;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 1.2vw;
   }
   
   .hero-section {
@@ -179,20 +214,9 @@
   .profile-description p {
     font-size: 18px;
     line-height: 1.6;
-  }
-
-  .contact-dropdown {
-  list-style: none;
-  margin: 5px 0;
-  position: relative;
-  top: 100%;
-  background-color: #fff;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-  display: none;
-}
-/* Mostrar el menú desplegable cuando el estado showContactDropdown es true */
-.contact-dropdown.show {
+  }  
+  .dropdown:hover .dropdown-options {
   display: block;
-}  
+}
   </style>
   
