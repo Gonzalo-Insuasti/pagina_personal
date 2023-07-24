@@ -10,7 +10,7 @@
                   <span>CONTACTO</span>
                 </button>
                 <div class="dropdown-options">
-                  <li><a href="https://www.linkedin.com/in/gonzalo-insuasti-7a9103252">Linkedin</a></li>
+                  <li><a href="https://www.linkedin.com/in/gonzalo-insuasti-7a9103252" target="_blank">Linkedin</a></li>
                   <li><a href="#">Instagram</a></li>
                 </div>
               </div>
