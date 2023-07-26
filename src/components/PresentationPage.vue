@@ -46,6 +46,40 @@
         </div>
       </div>
      </section>
+
+     <section>
+      <h1>EDUCACIÓN Y TITULACIÓN</h1>
+      <br>
+      <div style="text-align: left;">
+        <ul>
+          <li><b>{{ datos.titulo }}</b> <ul>
+            <li>Universidad de Nariño, Pasto</li>
+            <li>Agosto 2017 - Junio 2023</li>
+          </ul></li>
+          <p>Durante mi licenciatura en Informática, adquirí una formación en programación,
+            bases de datos, algoritmos y desarrollo de software</p>
+          <li>Cursos programación Platzi:<ul>
+            <li>Basico JavaScript</li>
+            <li>Asincronismo JavaScript</li>
+            <li>Closures y Scope JavaScript</li>
+            <li>Vue js</li>
+          </ul></li>
+          <li>Git y GitHub</li>
+          <br>
+          <p>En los cursos que estoy realizando actualmente espero seguir aprendiendo mucho mas sobre programación
+            fron end y asi apliar mi conocimiento con mas herramientas.
+            <br>
+            <br>
+            En estos cursos de programación, he ampliado mis conocimientos en áreas específicas
+            de desarrollo front end y he aprendido a utilizar herramientas y tecnologías relevantes para el campo.
+            Estos cursos me han proporcionado una base para abordar proyectos y me han ayudado
+            a mantenerme actualizado con las últimas tendencias en programación.</p>
+        </ul>
+      </div>
+     </section>
+     <br>
+     <br>
+
     </div>
   </template>
   
