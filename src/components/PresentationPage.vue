@@ -69,7 +69,7 @@
           <li>Git y GitHub</li>
           <br>
           <p>En los cursos que estoy realizando actualmente espero seguir aprendiendo mucho mas sobre programación
-            fron end y asi apliar mi conocimiento con mas herramientas.
+            fron end y asi ampliar mi conocimiento con mas herramientas.
             <br>
             <br>
             En estos cursos de programación, he ampliado mis conocimientos en áreas específicas
