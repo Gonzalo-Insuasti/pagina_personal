@@ -1,4 +1,9 @@
 <template>
+    <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer" />
     <div class="presentation-page">
       <nav class="navbar">
         <ul>
@@ -10,8 +15,8 @@
                   <span>CONTACTO</span>
                 </button>
                 <div class="dropdown-options">
-                  <li><a href="https://www.linkedin.com/in/gonzalo-insuasti-7a9103252" target="_blank">Linkedin</a></li>
-                  <li><a href="#">Instagram</a></li>
+                  <li><a href="https://www.linkedin.com/in/gonzalo-insuasti-7a9103252" target="_blank">Linkedin <i class="fa-brands fa-linkedin fa-fade"></i></a></li>
+                  <li><a href="https://instagram.com/gonzalo_xz?igshid=NGExMmI2YTkyZg==" target="_blank">Instagram <i class="fa-brands fa-instagram fa-fade"></i></a></li>
                 </div>
               </div>
 
@@ -32,6 +37,7 @@
           <p>{{ datos.nombre }}</p>
           <p>{{ datos.titulo }}</p>
           <p>{{ datos.correo }}</p>
+          <i class="fa-regular fa-envelope"></i>
           <a :href="doc" download="DocCV.pdf">
           <button class="btn">Descargar CV</button>
           </a>
