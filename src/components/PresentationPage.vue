@@ -37,7 +37,6 @@
           <p>{{ datos.nombre }}</p>
           <p>{{ datos.titulo }}</p>
           <p>{{ datos.correo }}</p>
-          <i class="fa-regular fa-envelope"></i>
           <a :href="doc" download="DocCV.pdf">
           <button class="btn">Descargar CV</button>
           </a>
