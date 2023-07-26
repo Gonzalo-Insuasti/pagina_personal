@@ -46,6 +46,8 @@
         </div>
       </div>
      </section>
+     <br>
+     <div><h2>-</h2></div>
 
      <section>
       <h1>EDUCACIÓN Y TITULACIÓN</h1>
