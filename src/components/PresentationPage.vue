@@ -81,7 +81,27 @@
      </section>
      <br>
      <br>
-
+     <div class="divcss"><h2>-</h2></div>
+     <section class="box">
+      <h1>HABILIDADES</h1>
+      <ul>
+          <li><b>Habilidades sociales</b> <ul>
+            <li>Trabajo en equipo </li>
+            <li>Comunicación</li>
+            <li>Empatía</li>
+          </ul></li>
+          <li>Habilidades adquiridas<ul>
+            <li>Manejo de git y GitHub</li>
+            <li>Manejo de Html y CSS</li>
+            <li>Manejo de JavaScript</li>
+            <li>Manejo de Vue js</li>
+          </ul></li>
+        </ul>
+        <br>
+        <br>
+     </section>
+     <br>
+     <br>
     </div>
   </template>
   
@@ -109,6 +129,25 @@
   </script>
   
   <style>
+    .box {
+  --mask: 
+    linear-gradient(to top,#c7bebe00 30px,#503b3b 0),
+    radial-gradient(30px,#8d5c5c 98%,#f0e9e900) bottom/55.50px 60px;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+        
+          background-image: linear-gradient(
+      150deg,
+      #6b0c28,
+      rgb(202, 57, 101),
+      #b65028
+    );
+    
+}
+.box li{
+  text-align: left;
+}
+  
     .btnright {
     border: 0;
     background-image: linear-gradient(
