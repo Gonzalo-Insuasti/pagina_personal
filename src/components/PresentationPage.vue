@@ -61,21 +61,17 @@
           <p>Durante mi licenciatura en Informática, adquirí una formación en programación,
             bases de datos, algoritmos y desarrollo de software</p>
           <li>Cursos programación Platzi:<ul>
-            <li>Basico JavaScript</li>
-            <li>Asincronismo JavaScript</li>
-            <li>Closures y Scope JavaScript</li>
-            <li>Vue js</li>
+            <li>{{ datos.c1 }}</li>
+            <li>{{ datos.c2 }}</li>
+            <li>{{ datos.c3 }}</li>
+            <li>{{ datos.c4 }}</li>
           </ul></li>
           <li>Git y GitHub</li>
           <br>
-          <p>En los cursos que estoy realizando actualmente espero seguir aprendiendo mucho mas sobre programación
-            fron end y asi ampliar mi conocimiento con mas herramientas.
+          <p>{{ datos.p1 }}
             <br>
             <br>
-            En estos cursos de programación, he ampliado mis conocimientos en áreas específicas
-            de desarrollo front end y he aprendido a utilizar herramientas y tecnologías relevantes para el campo.
-            Estos cursos me han proporcionado una base para abordar proyectos y me han ayudado
-            a mantenerme actualizado con las últimas tendencias en programación.</p>
+            {{ datos.p }}</p>
         </ul>
       </div>
      </section>
@@ -115,7 +111,15 @@
   const datos = ref({
     nombre: 'Gonzalo Fabian Insuasi Tabla', 
     titulo: 'Licenciado en informatica', 
-    correo: 'Gonzaloinsuasty21@gmail.com'
+    correo: 'Gonzaloinsuasty21@gmail.com',
+    lugart:'Universidad de Nariño, Pasto',
+    fechat:'Agosto 2017 - Junio 2023',
+    c1:'Basico JavaScript',
+    c2:'Asincronismo JavaScript',
+    c3:'Closures y Scope JavaScript',
+    c4:'Vue js',
+    p:'En estos cursos de programación, he ampliado mis conocimientos en áreas específicas de desarrollo front end y he aprendido a utilizar herramientas y tecnologías relevantes para el campo. Estos cursos me han proporcionado una base para abordar proyectos y me han ayudado a mantenerme actualizado con las últimas tendencias en programación.',
+    p1:'En los cursos que estoy realizando actualmente espero seguir aprendiendo mucho mas sobre programación front end y asi apliar mi conocimiento con mas herramientas.' 
     } );
     const presentacion = `¡Hola! Soy un programador junior 
     con conocimientos de JavaScript, HTML y Vue.js. 
@@ -123,27 +127,10 @@
     aprendiendo y mejorando mis habilidades. Me considero una persona 
     trabajadora, responsable y comprometida con mi trabajo. Siempre estoy 
     buscando nuevos desafíos y oportunidades para crecer profesionalmente.`
-
-    const showContactList = ref(false);
     
   </script>
   
   <style>
-    .box {
-  --mask: 
-    linear-gradient(to top,#c7bebe00 30px,#503b3b 0),
-    radial-gradient(30px,#8d5c5c 98%,#f0e9e900) bottom/55.50px 60px;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);
-        
-          background-image: linear-gradient(
-      150deg,
-      #6b0c28,
-      rgb(202, 57, 101),
-      #b65028
-    );
-    
-}
 .box li{
   text-align: left;
 }
@@ -296,7 +283,7 @@
   }
   
   .profile-description p {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.6;
   }  
   .dropdown-options {
