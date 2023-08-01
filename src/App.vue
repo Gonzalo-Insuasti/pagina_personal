@@ -13,6 +13,15 @@ import PresentationPage from './components/PresentationPage.vue';
 body, html, #app{
   margin: 0px;
 }
+footer{
+  background-color: #242222;
+  width: 100%;
+  padding: 10px 0;  
+}
+footer h2{
+  text-transform: uppercase;
+  font-size: 2vw;
+}
 h1 {
   font-family:sans-serif;
   font-size: 2.2vw;

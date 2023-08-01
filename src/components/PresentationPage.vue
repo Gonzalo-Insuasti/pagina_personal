@@ -128,9 +128,9 @@
   
   <script setup>
   import { ref } from 'vue';
-  let imagesrc = ref('/Ciudad.jpg'),
+  let imagesrc = ref('/casa.jpg'),
       imagealt = ref('Mi imagen');
-  let img2 = ref('/Personal.jpg'),
+  let img2 = ref('/PPIMG.jpg'),
     imgalt =ref('Mod');
   let doc = ref('/DocCV.pdf');
   const datos = ref({
