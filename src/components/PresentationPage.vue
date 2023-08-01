@@ -15,8 +15,8 @@
                   <span>CONTACTO</span>
                 </button>
                 <div class="dropdown-options">
-                  <li><a href="https://www.linkedin.com/in/gonzalo-insuasti-7a9103252" target="_blank">Linkedin <i class="fa-brands fa-linkedin fa-fade"></i></a></li>
-                  <li><a href="https://instagram.com/gonzalo_xz?igshid=NGExMmI2YTkyZg==" target="_blank">Instagram <i class="fa-brands fa-instagram fa-fade"></i></a></li>
+                  <li><a href="#final">Linkedin <i class="fa-brands fa-linkedin fa-fade"></i></a></li>
+                  <li><a href="#final">Instagram <i class="fa-brands fa-instagram fa-fade"></i></a></li>
                 </div>
               </div>
 
@@ -81,12 +81,12 @@
      <section class="box">
       <h1>HABILIDADES</h1>
       <ul>
-          <li><b>Habilidades sociales</b> <ul>
+          <li class="boxl"><b>Habilidades sociales</b> <ul>
             <li>Trabajo en equipo </li>
             <li>Comunicación</li>
             <li>Empatía</li>
           </ul></li>
-          <li>Habilidades adquiridas<ul>
+          <li class="boxl">Habilidades adquiridas<ul>
             <li>Manejo de git y GitHub</li>
             <li>Manejo de Html y CSS</li>
             <li>Manejo de JavaScript</li>
@@ -97,6 +97,31 @@
         <br>
      </section>
      <br>
+     <br>
+     <footer id="final">
+      <h2>Contacto</h2>
+      <p>¡No dudes en contactarme!</p>
+      <br>
+      <ul class="social-media-list">
+      <li>
+        <a href="www.linkedin.com/in/gonzalo-insuasti-7a9103252" target="_blank">
+          <i class="fa-brands fa-linkedin fa-beat fa-2xl"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://instagram.com/gonzalo_xz?igshid=NGExMmI2YTkyZg==" target="_blank">
+          <i class="fa-brands fa-instagram fa-beat fa-2xl"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/Gonzalo-Insuasti" target="_blank">
+          <i class="fa-brands fa-github fa-beat fa-2xl"></i>
+        </a>
+      </li>
+      <!-- Agrega más logotipos de redes sociales aquí -->
+    </ul>
+    <br>
+     </footer>
      <br>
     </div>
   </template>
@@ -131,6 +156,20 @@
   </script>
   
   <style>
+  .social-media-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-list li {
+  margin: 0 10px;
+}
+   .boxl{
+  display:flex; 
+ }
 .box li{
   text-align: left;
 }
