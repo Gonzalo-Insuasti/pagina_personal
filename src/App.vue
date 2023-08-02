@@ -56,7 +56,7 @@ position: relative;
 h2::after,h2::before{
   content: '';
   position: absolute;
-  width: 300px;
+  width: 150px;
   height: 3px;
   background-image: linear-gradient(
       150deg,
@@ -66,9 +66,9 @@ h2::after,h2::before{
   top: 0.8em;
 }
 h2::after{
-  right: -305px;
+  right: -155px;
 }
 h2::before{
-  left: -305px;
+  left: -155px;
 }
 </style>

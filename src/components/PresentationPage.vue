@@ -12,12 +12,8 @@
 
           <div class="dropdown"  >
                 <button class="btnright" >
-                  <span>CONTACTO</span>
+                 <a href="#final"><span>CONTACTO</span></a>
                 </button>
-                <div class="dropdown-options">
-                  <li><a href="#final">Linkedin <i class="fa-brands fa-linkedin fa-fade"></i></a></li>
-                  <li><a href="#final">Instagram <i class="fa-brands fa-instagram fa-fade"></i></a></li>
-                </div>
               </div>
 
         </ul>
@@ -191,13 +187,13 @@
     transition: .3s ;
 
   }
-  button span {
+  button a {
     background-color: #333;
     padding: 16px 24px;
     border-radius: 6px;
     transition: .3s;
   }
-  button:hover span {
+  button:hover a {
     background: none;
   }
   button:active{
@@ -221,20 +217,12 @@
   display: inline-block;
   position: relative;
 }
-
-
-  .textoendiv{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} 
   .presentation-page {
     text-align: center;
     padding-top: 50px;
     padding-left:0cm;
     width:  90vw;
   }
-  
   nav {
     background-color: #333;
     padding: 1px 0;
@@ -248,22 +236,19 @@
   background-color: #333;
   padding: 10px 0;
   z-index: 1000; /*el z-index sea superior a otros elementos para mantenerla por encima */
-}
-  
+} 
   nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     margin-right: 20px;
   }
-  
   nav li {
     display: inline-block;
     margin-right: 10px;
     text-transform: uppercase;
     margin-bottom: 10px;
   }
-  
   nav a {
     color: #fff;
     text-decoration: none;
@@ -271,38 +256,31 @@
     text-decoration: none;
     font-size: 1.2vw;
   }
-  
   .hero-section {
     position: relative;
     margin-top: 10px;
   }
-  
   .hero-section img {
     width: 100%;
     max-height: 100%;
     object-fit: cover;
   }
-  
   .hero-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
   .hero-text h1 {
     color: #fff;
     font-size:  4vw;
-    text-shadow: 2px 1px 2px black;
-    
+    text-shadow: 2px 1px 2px black; 
   }
-  
   .profile-section {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
     font-size: 2.5vw;
-  
   } 
   .profile-image p {
     text-align: left;
@@ -315,12 +293,10 @@
     object-fit: cover;
     margin-right: 50px;
   }
-  
   .profile-description {
     max-width: 60%;
     text-align: left;
   }
-  
   .profile-description p {
     font-size: 14px;
     line-height: 1.6;
