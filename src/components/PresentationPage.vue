@@ -100,12 +100,12 @@
       <br>
       <ul class="social-media-list">
       <li>
-        <a href="www.linkedin.com/in/gonzalo-insuasti-7a9103252" target="_blank">
+        <a href="https://www.linkedin.com/in/gonzalo-insuasti-7a9103252/" target="_blank">
           <i class="fa-brands fa-linkedin fa-beat fa-2xl"></i>
         </a>
       </li>
       <li>
-        <a href="https://instagram.com/gonzalo_xz?igshid=NGExMmI2YTkyZg==" target="_blank">
+        <a href="https://instagram.com/gonzalo_xz?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target="_blank">
           <i class="fa-brands fa-instagram fa-beat fa-2xl"></i>
         </a>
       </li>
