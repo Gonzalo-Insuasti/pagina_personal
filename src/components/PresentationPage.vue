@@ -26,7 +26,7 @@
         </div>
       </div>
       </section>
-     <section id="acerca" class="about-section">
+     <section id="acerca">
         <div class="profile-section ">
         <div class="profile-image">
           <img class="mimage" :src="img2" :alt="imgalt">
@@ -205,7 +205,7 @@
     color: #fff;
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1.5vw;
     cursor: pointer;
     border-radius: 4px;
   }
@@ -254,7 +254,7 @@
     text-decoration: none;
     padding: 5px 10px;
     text-decoration: none;
-    font-size: 1.2vw;
+    font-size: 14px;
   }
   .hero-section {
     position: relative;
@@ -280,35 +280,23 @@
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
-    font-size: 2.5vw;
+    font-size: 2vw;
+    line-height: 1.6;
   } 
   .profile-image p {
     text-align: left;
     font-size: 1.5vw;
   }
   .profile-image img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 50px;
+    margin-right: 40px;
   }
   .profile-description {
     max-width: 60%;
     text-align: left;
   }
-  .profile-description p {
-    font-size: 14px;
-    line-height: 1.6;
-  }  
-  .dropdown-options {
-  display: none;
-  position: absolute;
-  overflow: auto;
-  text-align: left;
-}
-  .dropdown:hover .dropdown-options {
-  display: block;
-}
   </style>
   
